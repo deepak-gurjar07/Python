@@ -1,0 +1,5 @@
+f=open("abc.txt",'r')
+data=f.read()
+newdata=data.replace('abcd','pqrs')
+print(newdata)
+f.close()
