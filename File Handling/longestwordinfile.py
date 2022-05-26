@@ -1,0 +1,5 @@
+f=open("abc.txt",'r')
+data=f.read()
+longest=max(data.split(), key=len)
+print("longest word is: ",longest)
+f.close()
