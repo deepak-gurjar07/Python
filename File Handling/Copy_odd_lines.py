@@ -9,11 +9,6 @@ for i in range(0, len(cont)):
     else: 
         pass
     
-f1.close() 
-
-f1 = open('nfile.txt','w')
-cont1 = f1.read() 
-print(cont1) 
-
-f.close() 
 f1.close()
+f.close()
+print("copying odd line successful")
