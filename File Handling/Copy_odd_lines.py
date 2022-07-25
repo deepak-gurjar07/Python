@@ -11,4 +11,4 @@ for i in range(0, len(cont)):
     
 f1.close()
 f.close()
-print("copying odd line successful")
+print("Copying odd line successful.")
